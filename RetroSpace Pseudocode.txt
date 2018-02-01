@@ -1,0 +1,18 @@
+import 'pygame' and 'random'
+initialize pygame
+initialize pygame.font
+
+set screen_size's value to screen_width, screen_height whose values are 500, 800 respectively
+create a screen object whose size is screen_size
+set a caption(title) with value "Blasteroid v1"
+
+set BLACK color constant to (0, 0, 0)
+set WHITE color constant to (255, 255, 255)
+set RED color constant to (255, 0, 0)
+set GREEN color constant to (0, 255, 0)
+set BLUE color constant to (0, 0, 255)
+
+set player_speed to [0, 0]
+set bullet_speed to [0, 5]
+set asteroid_speed to [0, 1]
+
